@@ -1,4 +1,17 @@
 proxies:
+- name: danu09
+  type: trojan
+  server: id-magna.sshpremium.my.id
+  port: 443
+  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  udp: true
+  sni: teams.live.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-magna.sshpremium.my.id
 - name: danuWs09
   type: trojan
   server: 172.67.199.34
