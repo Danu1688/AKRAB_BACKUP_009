@@ -1,7 +1,7 @@
 proxies:
-- name: danuBB09
+- name: danuB09
   type: trojan
-  server: teams.live.com
+  server: crl.identrust.com
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
