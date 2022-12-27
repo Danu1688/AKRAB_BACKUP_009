@@ -1,7 +1,7 @@
 proxies:
 - name: danuWs09
   type: trojan
-  server: 172.67.199.34
+  server: 104.20.75.141
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
