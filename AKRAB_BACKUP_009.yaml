@@ -1,5 +1,5 @@
 proxies:
-- name: danuWs09a
+- name: danuWs09
   type: trojan
   server: crl.identrust.com
   port: 443
