@@ -3,20 +3,20 @@ proxies:
   type: trojan
   server: 172.67.199.34
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs09-SNIa
   type: trojan
-  server: id-magna.sshpremium.my.id
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
   sni: gomarketplacecontent-cf.zoom.us
   skip-cert-verify: true
@@ -27,9 +27,9 @@ proxies:
       Host: gomarketplacecontent-cf.zoom.us
 - name: danuWs09-SNIb
   type: trojan
-  server: id-magna.sshpremium.my.id
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
   sni: gomarketplacefront-cf.zoom.us
   skip-cert-verify: true
@@ -42,41 +42,41 @@ proxies:
   type: trojan
   server: crl.identrust.com
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs09-Midtrans
   type: trojan
   server: midtrans.com
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs09
   type: trojan
   server: 172.67.199.34
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs02
   type: trojan
   server: 172.67.199.34
